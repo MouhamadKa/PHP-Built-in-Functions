@@ -3,7 +3,7 @@
         Function to remove the html tags from within a given string
 
         - Parameters
-        ---- $str : The given string
+        ---- $str : The given string [Required]
     */
 
     function custom_strip_tags($input) {
