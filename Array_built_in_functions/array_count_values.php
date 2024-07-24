@@ -1,6 +1,10 @@
 <?php
     /*
-    
+        This function count how many times each value exists in an array and return another array wich its keys are the values
+        in the source array, and it's values are the count of each element
+
+        - Parameters
+        ---- $arr: To count the repetition of its values [Required]
     
     */
 
