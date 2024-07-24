@@ -16,5 +16,5 @@
         return $str;
     }
 
-    echo strtr("Hilla Warld","ia","eo") . "<br>";
-    echo str_tr("Hilla Warld","ia","eo") . "<br>";
+    // echo strtr("Hilla Warld","ia","eo") . "<br>";
+    // echo str_tr("Hilla Warld","ia","eo") . "<br>";

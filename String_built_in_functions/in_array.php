@@ -17,11 +17,11 @@
 
 
 
-    var_dump(is_in_array("x", ["a", "b", "c"]));
-    echo "<br>";
-    var_dump(is_in_array("x", ["a", "b", "c", "x", "y", "z"]));
-    echo "<br>";
-    var_dump(is_in_array("x", ["a", "b", "c", "Z"]));
-    echo "<br>";
-    var_dump(is_in_array("1", [1, 2, 3]));
-    echo "<br>";
+    // var_dump(is_in_array("x", ["a", "b", "c"]));
+    // echo "<br>";
+    // var_dump(is_in_array("x", ["a", "b", "c", "x", "y", "z"]));
+    // echo "<br>";
+    // var_dump(is_in_array("x", ["a", "b", "c", "Z"]));
+    // echo "<br>";
+    // var_dump(is_in_array("1", [1, 2, 3]));
+    // echo "<br>";

@@ -17,14 +17,14 @@
         return $arr;
     }
 
-    echo "<pre>";
-    print_r(string_split("aaaaaaaa"));
-    echo "</pre>";
+    // echo "<pre>";
+    // print_r(string_split("aaaaaaaa"));
+    // echo "</pre>";
 
-    echo "<pre>";
-    print_r(string_split("abcdefg", 2));
-    echo "</pre>";
+    // echo "<pre>";
+    // print_r(string_split("abcdefg", 2));
+    // echo "</pre>";
     
-    echo "<pre>";
-    print_r(string_split("",5));
-    echo "</pre>";
+    // echo "<pre>";
+    // print_r(string_split("",5));
+    // echo "</pre>";

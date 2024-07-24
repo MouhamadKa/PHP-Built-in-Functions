@@ -13,30 +13,36 @@
 
     include("append.php");
 
-    function custom_explode($string, $sep = " " , $start = 0 , $end = null){
+    function custom_explode($string, $sep = "" , $start = 0 , $end = null){
         if($end == null) $end = strlen($string);
         $arr = [];
         $index = $start;
 
         for($i = $start ; $i < strlen($string) && $i <= $end; $i++):
-            if($string[$i] == $sep):
+            if($sep === ""):
+                $arr[] = $string[$i];
+
+            elseif($string[$i] == $sep):
                 // echo "XXXXXXXXXX<br>";
                 $arr = append($arr, substr($string, $index, $i - $index));
                 $index = $i + 1;
             endif;
         endfor;
 
-        if(substr($string, $index, $i-$index) != "") 
+        if($sep != "" && substr($string, $index, $i-$index) != "") 
             $arr = append($arr, substr($string, $index, $i - $index));
 
         return $arr;
     }
 
+    // echo '<pre>';
+    // print_r(custom_explode("I am Mouhamad"));
+    // echo '</pre>';
 
     // echo '<pre>';
-    // print_r(custom_explode("I am Mouhamad "));
+    // print_r(custom_explode("I am Mouhamad", " "));
     // echo '</pre>';
     
     // echo '<pre>';
-    // print_r(custom_explode("I am Mouhamad, I am 25 years old."));
+    // print_r(custom_explode("I am Mouhamad, I am 25 years old.", " "));
     // echo '</pre>';

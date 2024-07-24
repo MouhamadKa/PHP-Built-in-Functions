@@ -17,9 +17,9 @@
     }
 
     
-    echo str_rpos("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "a") . "<br>";
-    echo str_rpos("Mouhamad", "a") . "<br>";
-    echo str_rpos("Mouhamad", "a",5) . "<br>";
-    echo str_rpos("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "a", 4) . "<br>";
-    echo str_rpos("x", "a", 4) . "<br>";
-    echo (strlen("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"));
+    // echo str_rpos("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "a") . "<br>";
+    // echo str_rpos("Mouhamad", "a") . "<br>";
+    // echo str_rpos("Mouhamad", "a",5) . "<br>";
+    // echo str_rpos("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "a", 4) . "<br>";
+    // echo str_rpos("x", "a", 4) . "<br>";
+    // echo (strlen("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"));
