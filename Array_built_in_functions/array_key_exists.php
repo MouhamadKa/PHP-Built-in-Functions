@@ -7,7 +7,7 @@
         ---- $arr: To search in [Required]
     */
 
-    function my_array_key_exists($search, $arr){
+    function my_array_key_exists(mixed $search,array $arr) :bool {
         foreach($arr as $key=>$val)
             if($key == $search)
                 return true;
