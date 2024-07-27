@@ -42,28 +42,28 @@
         return true;
     }
 
-    $languages = ["Syria" => "Arabic", "Spain" => "Spanich", "USA" => "English", "Germany" => "Deutch"];
-    my_ksort($languages);
-    echo "<pre>";
-    print_r($languages);
-    echo "</pre>";
+    // $languages = ["Syria" => "Arabic", "Spain" => "Spanich", "USA" => "English", "Germany" => "Deutch"];
+    // my_ksort($languages);
+    // echo "<pre>";
+    // print_r($languages);
+    // echo "</pre>";
 
 
-    $languages = ["Syria" => "Arabic", "Spain" => "Spanich", "USA" => "English", "Germany" => "Deutch"];
-    my_ksort($languages);
-    echo "<pre>";
-    print_r($languages);
-    echo "</pre>";
+    // $languages = ["Syria" => "Arabic", "Spain" => "Spanich", "USA" => "English", "Germany" => "Deutch"];
+    // my_ksort($languages);
+    // echo "<pre>";
+    // print_r($languages);
+    // echo "</pre>";
 
 
-    $continent = ["Syria" => "Asia", "Palestine" => "Asia", "USA" => "North America", "Egypt" => "Africa", "Spain" => "Europe"];
-    my_ksort($continent);
-    echo "<pre>";
-    print_r($continent);
-    echo "</pre>";
+    // $continent = ["Syria" => "Asia", "Palestine" => "Asia", "USA" => "North America", "Egypt" => "Africa", "Spain" => "Europe"];
+    // my_ksort($continent);
+    // echo "<pre>";
+    // print_r($continent);
+    // echo "</pre>";
 
-    $continent = ["Syria" => "Asia", "Palestine" => "Asia", "USA" => "North America", "Egypt" => "Africa", "Spain" => "Europe"];
-    my_ksort($continent);
-    echo "<pre>";
-    print_r($continent);
-    echo "</pre>";
+    // $continent = ["Syria" => "Asia", "Palestine" => "Asia", "USA" => "North America", "Egypt" => "Africa", "Spain" => "Europe"];
+    // my_ksort($continent);
+    // echo "<pre>";
+    // print_r($continent);
+    // echo "</pre>";
