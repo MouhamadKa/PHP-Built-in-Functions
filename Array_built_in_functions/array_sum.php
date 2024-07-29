@@ -15,11 +15,11 @@
         return $res;
     }
 
-    $arr = [1, 2, 5, 10, 6, [4,2], 3.5, "2"];
-    echo my_array_sum($arr) . "<br>";
+    // $arr = [1, 2, 5, 10, 6, [4,2], 3.5, "2"];
+    // echo my_array_sum($arr) . "<br>";
 
-    $arr = [1, 2, 5, 10, 6, [4,2], 3.5, "2"];
-    echo my_array_sum($arr) . "<br>";
+    // $arr = [1, 2, 5, 10, 6, [4,2], 3.5, "2"];
+    // echo my_array_sum($arr) . "<br>";
 
-    $arr = [1, 2, 5, 10, 6, [4,2], 3.5, "s"];
-    echo my_array_sum($arr) . "<br>";
+    // $arr = [1, 2, 5, 10, 6, [4,2], 3.5, "s"];
+    // echo my_array_sum($arr) . "<br>";
